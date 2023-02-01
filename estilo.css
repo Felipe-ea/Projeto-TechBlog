@@ -1,0 +1,154 @@
+
+/*Limpar fomatacões padrão*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+	background: #e6e6e6;
+
+}
+
+/* **Layout** */
+
+#area-cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#area-postagens, #area-lateral {
+	background-color: #e6e6e6;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;	
+}
+
+
+#area-rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background-color: #CCC;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.conteudo-lateral {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* ** Formatações em geral ** */
+
+h1 {
+	color: white;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+	font-size: 1.5em;
+}
+
+h3 {
+	color: #565656;
+	background-color: #CCC;
+	padding: 5px;
+}
+
+.cinza {
+	color: #4e4e4e;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px dashed #f7b600;	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+/* ** Formatação links ** */
+
+a {
+	text-decoration: none;
+}
+
+#area-menu a:link, a:visited {
+	color: white;	
+	padding: 8px 12px;
+}
+
+#area-menu a:hover {
+	color: #f7b600;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#area-menu a:active {
+	color: white;
+}
+
+#area-postagens a:link, #area-postagens a:visited {
+	color: #f7b600;
+	text-decoration: none;
+}
+
+#area-postagens a:hover {
+	color: #f7b600;
+	text-decoration: underline;	
+}
+
+#area-postagens a:active {
+	color: #f7b600;
+}
+
+#area-lateral a:link, #area-lateral a:visited {
+	color: #f7b600;
+	text-decoration: none;
+}
+
+#area-lateral a:hover {
+	color: #f7b600;
+	text-decoration: underline;	
+}
+
+#area-lateral a:active {
+	color: #f7b600
+
+
+
